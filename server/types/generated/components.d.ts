@@ -47,7 +47,7 @@ export interface ElementsLogo extends Struct.ComponentSchema {
     displayName: 'logo';
   };
   attributes: {
-    image: Schema.Attribute.Media<'images', true>;
+    image: Schema.Attribute.Media<'images'>;
     logoText: Schema.Attribute.String;
   };
 }
