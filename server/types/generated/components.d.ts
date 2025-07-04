@@ -23,7 +23,7 @@ export interface BlocksInfoBlock extends Struct.ComponentSchema {
     cta: Schema.Attribute.Component<'elements.link', false>;
     description: Schema.Attribute.RichText;
     heading: Schema.Attribute.String;
-    infoImg: Schema.Attribute.Media<'images'>;
+    image: Schema.Attribute.Media<'images'>;
     isReveresed: Schema.Attribute.Boolean & Schema.Attribute.DefaultTo<false>;
     theme: Schema.Attribute.Enumeration<['turquoise', 'orange']>;
   };
@@ -47,7 +47,7 @@ export interface ElementsLogo extends Struct.ComponentSchema {
     displayName: 'logo';
   };
   attributes: {
-    logo: Schema.Attribute.Media<'images', true>;
+    image: Schema.Attribute.Media<'images', true>;
     logoText: Schema.Attribute.String;
   };
 }

@@ -20,7 +20,7 @@
       "component": "elements.link",
       "repeatable": false
     },
-    "infoImg": {
+    "image": {
       "type": "media",
       "multiple": false,
       "allowedTypes": [

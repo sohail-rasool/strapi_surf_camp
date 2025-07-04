@@ -8,7 +8,7 @@
     "logoText": {
       "type": "string"
     },
-    "logo": {
+    "image": {
       "type": "media",
       "multiple": true,
       "allowedTypes": [
