@@ -75,7 +75,7 @@
     bottom: 0;
     left: 50%;
     transform: translate(-50%, 50%);
-
+    object-fit: contain;
     &--orange {
       filter: invert(62%) sepia(21%) saturate(1646%) hue-rotate(348deg)
         brightness(88%) contrast(81%);
