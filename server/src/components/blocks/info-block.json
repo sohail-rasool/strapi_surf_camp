@@ -8,10 +8,10 @@
     "heading": {
       "type": "string"
     },
-    "description": {
+    "content": {
       "type": "richtext"
     },
-    "isReveresed": {
+    "reversed": {
       "type": "boolean",
       "default": false
     },
